@@ -274,7 +274,7 @@ NA는 결측치, 즉 값이 빠져있는 경우이고 NULL은 값이 정해지�
   [1] m f
   Levels : f m
   
-  as.factor(c("m","f"), levels=c("m","f")) #레벨의 순서 지정가능
+  factor(c("m","f"), levels=c("m","f")) #레벨의 순서 지정가능
   [1] m f
   Levels : m f
   ```
